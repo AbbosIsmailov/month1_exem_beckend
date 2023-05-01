@@ -1,16 +1,16 @@
-const { read, hashPassword, write } = require('../utils/module')
+const { read, write } = require('../utils/module')
 
 const productsController = {
       GET: (req, res) => {
-            const { categoryId, subCategoryId, model } = req.query;
-            const subCategories = read('subCategories')
-            const products = read('products')
-            let resut = []
+            const { categoryId, subCategoryId, model } = req.query; //// kelgan malumotni oldik
+            const subCategories = read('subCategories') //// subcategoriesni oqidik
+            const products = read('products') ///// productsni oqidik
+            let resut = [] 
             if (categoryId) {
                   subCategories.forEach(element => {
                         if (element.category_id == categoryId) {
                               let res = products.filter((el) => {
-                                    return el.sub_category_id == element.sub_category_id
+                                    return el.sub_category_id == element.sub_category_id //// productni idsi bilan subCategoryni id sini tekshirdik
                               })
                               resut.push(...res)
                         }
