@@ -1,7 +1,7 @@
 [
     {
         "product_id": 2,
-        "sub_category_id": 1,
+        "sub_category_id": 2,
         "model": "samsung",
         "product_namee": "ultra 23",
         "color": "red",
@@ -9,7 +9,7 @@
     },
     {
         "product_id": 2,
-        "sub_category_id": 1,
+        "sub_category_id": 2,
         "model": "samsung",
         "product_namee": "galaxy 7",
         "color": "red",
@@ -17,7 +17,7 @@
     },
     {
         "product_id": 3,
-        "sub_category_id": 1,
+        "sub_category_id": 2,
         "model": "Artel",
         "product_namee": "Artel 48 2x",
         "color": "black",
@@ -25,7 +25,7 @@
     },
     {
         "product_id": 4,
-        "sub_category_id": 3,
+        "sub_category_id": 1,
         "model": "hp",
         "product_namee": "hp pavilon",
         "color": "silver",
@@ -33,7 +33,7 @@
     },
     {
         "product_id": 5,
-        "sub_category_id": 4,
+        "sub_category_id": 3,
         "model": "salamandra",
         "product_namee": "salamandra 42 x1",
         "color": "black",
@@ -41,15 +41,15 @@
     },
     {
         "product_id": 6,
-        "sub_category_id": 5,
+        "sub_category_id": 4,
         "model": "polo",
-        "product_namee": "colo xr13",
+        "product_namee": "shirt",
         "color": "white",
         "price": 12
     },
     {
         "product_id": 7,
-        "sub_category_id": 1,
+        "sub_category_id": 2,
         "model": "iphone",
         "product_name": "iphone 14 pro",
         "color": "red",
@@ -57,7 +57,7 @@
     },
     {
         "product_id": 8,
-        "sub_category_id": 1,
+        "sub_category_id": 2,
         "product_name": "redmi not 9",
         "price": 160,
         "color": "white",
